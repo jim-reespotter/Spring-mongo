@@ -21,3 +21,20 @@ db.createUser(
 
 ```
 Now set this in application.properties
+
+
+## some awkward contrived classes
+We have:
+Person
+- has a name
+
+SuperHero
+- sub of Person
+- has a power
+- has an alter ego (a normal person)
+
+Company
+- has a manager (person)
+- has employees (persons)
+
+Might add some more contrivance if necessary...
